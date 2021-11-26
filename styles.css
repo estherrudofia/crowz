@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --black: black;
+    --side: #F2EAE1;
+    --white: #ffffff;
+    --red: #e94029;
+    --blue: #6EBCB6;
+    --background-blue: #E9F5F3;
+  }
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+ul li {
+    list-style: none;
+}
+
+.side-menu {
+    background-color: var(--side);
+    width: 22vw;
+    position: fixed;
+}
+.side-menu li {
+    list-style: none;
+}
+
+.side-menu li img {
+    width: 25px;
+    height: 25px;
+}
+
+.circle img {
+    width: 80px;
+    height: 80px;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+.dashboard .box {
+    width: 16px;
+    height: 16px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 70%;
+    padding-top: 0;
+}
+
+.side-menu .logout .image img {
+    width: 13px;
+    height: 11px;
+    filter: invert(100%);
+    display: flex;
+}
+
+.side-menu .logout .image {
+    width: 20px;
+    height: 20px;
+    background-color: var(--black);
+    border-radius: 100%;
+}
+
+.container {
+    margin-left: 25vw;
+}
+
+.container .row {
+    height: 35vh;
+}
+
+.box1 img {
+    width: 8px;
+    height: 8px;
+    filter: invert(100%) 
+}
+
+.box1 .dash1 img {
+    filter: contrast(100%);
+    height: 20px;
+    width: 20px;
+}
+
+.dash1 span {
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    background-color: var(--red);
+    margin-left: 120px !important;
+}
+
+.dash2 .name span {
+    width: 10px;
+    height: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    margin-left: 18px;
+}
+
+.dash2 .followers .name span {
+    background-color: var(--red);
+}
+
+.dash2 .name span img {
+    display: block;
+    margin: auto;
+}
+
+.chart img{
+    height: 30vh;
+    width: 32.5vw;
+}
+
+.dash00 {
+    width: 33vw;
+    background-color: var(--side);
+    border-radius: 30px;
+}
+
+.prof img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.dash00 .now {
+    width: 70px;
+    height: 70px;
+    background-color: var(--red);
+    border-radius: 100%;
+    color: white;
+    /* margin: auto; */
+}
+
+.act2 .tab td img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.cintro h4 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.cintro p {
+    font-size: 16px;
+}
+
+.channel {
+    background-color: var(--background-blue);
+    border-radius: 40px;
+    width: 68vw;
+    margin-top: 70px !important;
+}
+
+.channel img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.chans {
+    width: 9vw;
+    background-color: var(--white);
+    border-radius: 15%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 24vh;
+    margin-right: 30px;
+    margin-top: 16px;
+}
+
+.chan1 {
+
+    position: relative;
+}
+
+.chan1 img {
+    position: absolute;      
+    margin-left: 50px;
+}
+
+.chan2 { 
+    position: relative;
+}
+
+.chan2 img {
+    position: absolute;      
+    margin-left: 50px;
+}
+
+.chan3 {
+    position: relative;
+}
+
+.chan3 img {
+    position: absolute;      
+    margin-left: 50px;
+}
+
+.chan4 {
+    position: relative;
+}
+
+.chan4 img {
+    position: absolute;      
+    margin-left: 50px;
+}
+
+.chan5 .chans{
+    justify-content: left;
+    align-items: left;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.chan5 .chans img {
+    width: 20px;
+    height: 20px;
+    filter: hue-rotate(70%);
+    background-color: var(--white)
+}
